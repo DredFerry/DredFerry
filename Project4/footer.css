@@ -1,0 +1,35 @@
+footer{
+    background-color: black;
+    color: white;
+    height: 40vh;
+}
+.section{
+}
+.wrapper{
+    max-width: 1295px;
+width: 100%;
+margin: 0 auto;
+padding: 20px 60px;
+}
+.section h2{
+    color:white;
+    font-size: 12px;
+    font-family: 'proximanova',sans-serif;
+
+}
+.section  ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'proximanova',sans-serif;
+    font-size: 10px;
+}
+.section  ul li{
+    list-style: none;
+}
+.col-section{
+    float: right;
+    width: 50%;
+}
+.section  ul li a:hover{
+    color: #666;
+}

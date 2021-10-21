@@ -1,0 +1,85 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.TopArea{
+    height: 30px;
+background-color: #1a1a1a;
+box-sizing: border-box;
+border-bottom: 2px solid #333;
+font-family: 'proximanova',sans-serif;
+}
+.container
+{
+    padding:0 10px;
+    margin: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.headerLinks{
+    display: flex;
+    
+}
+.headerLinks a{
+    font-size: 11px;
+color: white;
+text-decoration: none;
+margin: 5px 10px;
+
+}
+.headerLinks span{
+    font-size: 10px;
+/* color: white; */
+margin: 5px 0px;
+}
+.coloumn
+{
+    width: 40%;
+    color: white;
+    display: flex;
+}
+#Language{
+    background-color: #1a1a1a;
+    color: white;
+    border: 0;
+}
+#widget{
+    background: linear-gradient(90deg,#3023ae,#c86dd7);
+    width: 50%;
+    height: 100%;
+}
+.inWidget{
+    padding:0 10px;
+    height: 90%;
+
+}
+.inWidget a{
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    height: 90%;
+    padding-right: 10px;
+}
+#signin{
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    margin: auto 15px auto 50px;
+}
+.socialable{
+    display: flex;
+    align-items: center;
+
+}
+.socialable a{
+    color: white;
+    padding: 10px;
+
+}

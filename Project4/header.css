@@ -1,0 +1,127 @@
+/* header {
+    
+    height: 10vh;
+} */
+/* body{
+    position: absolute;
+    overflow-x: hidden;
+} */
+.mainContainer {
+    background: #000;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:0 2px;
+    font-family: 'proximanova',sans-serif;
+}
+
+.weather_show {
+    display: flex;
+}
+.weather_show a{
+    text-decoration: none;
+    display: flex;
+}
+.title{
+    color: white;
+    align-self: center;
+}
+.temp{
+    color: white;
+    padding: 2px;
+    align-self: flex-end;
+}
+#temperature{
+    font-weight: bolder;
+    
+}
+#arrow{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.subContainer{
+    background: #be2819;
+    height: 30px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    transition: all .5s;
+}
+.leftpart{
+    margin:0 auto;
+    position: relative;
+    width: 80%;
+    }
+.leftpart ul li{
+    display: inline-block;
+    list-style: none;
+    height: 28px;
+}
+.leftpart ul li  a{
+    text-decoration: none;
+    color: black; 
+    font-size: 12px;
+    font-weight: 600;
+    font-family: roboto,'Roboto',calibri,'arial narrow',sans-serif;
+    padding: 5px 5px 15px 5px ;
+    font-size: 12px;
+
+}
+.leftpart ul li  :hover{
+    background-color: white;
+    color: black;
+}
+.search
+{
+position: absolute;
+bottom: 8px;
+right: 0;
+background-color: #be2819;
+border: none;
+}
+.search :hover{
+    cursor: pointer;
+}
+.searchbar{
+    height: 0vh;
+    background-color: rgba(104, 104, 104, 0.596);
+    position: sticky;
+    bottom: 71vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 8vh;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    width: 40%;
+}
+.searchbtn{
+    height: 8vh;
+    background-color: #c33;
+    color: white;
+    border: none;
+    width: 80px;
+    margin: 0 20px;
+}
+.close
+{
+    background-color:rgba(104, 104, 104, 0) ;
+    border: none;
+    position: relative;
+    color: white;
+    font-size: 40px;
+    transform: rotate(45deg);
+    left: 180px;
+    cursor: pointer;
+}
+option{
+    background-color: white;
+    color: black;
+}
